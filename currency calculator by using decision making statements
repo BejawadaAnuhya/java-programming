@@ -1,0 +1,34 @@
+package com.pack_1;
+
+public class Currency {
+
+	public static void main(String[] args) {
+		int amt=5700;
+		if(amt>=2000)
+		{
+			int count=amt/2000;
+			System.out.println("2000="+count);
+			amt=amt%2000;
+		}
+		if(amt>=500)
+		{
+			int count=amt/500;
+			System.out.println("500="+count);
+			amt=amt%500;
+		}
+		if(amt>=200)
+		{
+			int count=amt/200;
+			System.out.println("200="+count);
+			amt=amt%200;
+		}
+		if(amt>=100)
+		{
+			int count=amt/100;
+			System.out.println("100="+count);
+			amt=amt%100;
+		}
+
+	}
+
+}
