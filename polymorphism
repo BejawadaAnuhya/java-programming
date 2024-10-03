@@ -1,0 +1,42 @@
+package java;
+
+public class polymorphism {
+
+	public static void main(String[] args)
+	{
+		class Calculator
+		{
+				    int add(int a, int b) 
+				    {
+				        return a + b;
+				    }
+
+				    int add(int a, int b, int c) 
+				    {
+				        return a + b + c;
+				    }
+				}
+				class Animal
+				{
+				    void sound()
+				    {
+				        System.out.println("Animal makes sound");
+				    }
+				}
+				class Dog extends Animal
+				{
+				    void sound() 
+				    {
+				        System.out.println("Dog barks");
+				    }
+				}
+
+
+			}
+
+		}
+
+
+	}
+
+}
