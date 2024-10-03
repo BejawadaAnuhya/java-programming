@@ -1,10 +1,7 @@
 package com.pack_1;
 import java.util.Scanner;
-
-
 public class Randomnumber {
-
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		Scanner S= new Scanner(System.in);
 		System.out.println(" enter your name: ");
 		String name=S.next();		
@@ -12,7 +9,7 @@ public class Randomnumber {
 		int score=0;
 		for (int i=3;i>=1;i--)
 		{
-			System.out.println(" guess a number(1-9) ");
+                 System.out.println(" guess a number(1-9) ");
 			int num=S.nextInt();
 			if( n == num)
 			{
