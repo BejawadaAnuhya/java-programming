@@ -1,7 +1,9 @@
 package com.pack_1;
 import java.util.Scanner;
-public class Randomnumber {
-public static void main(String[] args) {
+public class Randomnumber 
+{
+public static void main(String[] args) 
+{
 		Scanner S= new Scanner(System.in);
 		System.out.println(" enter your name: ");
 		String name=S.next();		
@@ -24,8 +26,5 @@ public static void main(String[] args) {
 		}
 		System.out.println(n);
 		System.out.println(name + " your score ");
-		
-		
-	}
-
+		}
 }
