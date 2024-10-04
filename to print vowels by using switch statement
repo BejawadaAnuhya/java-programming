@@ -1,9 +1,9 @@
 package com.pack_1;
 import java.util.Scanner;
-
-public class vowels {
-
-	public static void main(String[] args) {
+public class vowels 
+{
+public static void main(String[] args)
+{
 		Scanner s = new Scanner(System.in);
 		System.out.println("enter a char");
 		char ch = s.next().charAt(0);
@@ -23,11 +23,6 @@ public class vowels {
 		break;
 		default :
 			System.out.println(ch+"is not a vowel");
-			
-	
+}
 	}
-	
-
-	}
-
 }
