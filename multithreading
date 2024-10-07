@@ -1,0 +1,28 @@
+class MyThread extends Thread 
+{
+ public void run()
+ {
+ for (int i = 0; i < 5; i++) 
+ {
+ System .out. print ln (Thread .current Thread().get Name() + " - Count: " + i);
+ try
+ {
+ Thread .sleep(500); 
+ } 
+ catch (Interrupted Exception e) 
+ {
+ e. print Stack Trace();
+ }
+ }
+ }
+}
+
+public class Multithreading Example {
+ public static void main(String[]args) {
+ My Thread thread1 = new My Thread();
+ My Thread thread2 = new My Thread();
+
+ thread1.start(); 
+ thread2.start();
+}
+}
