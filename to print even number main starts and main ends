@@ -1,0 +1,13 @@
+package com.pack_1;
+public class Evennumbersmainends 
+{
+public static void main(String[] args)
+{
+		System.out.println("main starts");
+		int n = 6;
+		if(n%2==0)
+			System.out.println("even numbers");
+		System.out.println(n);
+		System.out.println("main ends");
+		}
+}
