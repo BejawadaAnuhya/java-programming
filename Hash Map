@@ -1,0 +1,23 @@
+import java.util.HashMap;
+
+public class HashMapExample {
+    public static void main(String[] args) {
+       
+        HashMap<Integer, String> students = new HashMap<>();
+
+        students.put(101, "Alice");
+        students.put(102, "Bob");
+        students.put(103, "Charlie");
+
+      
+        String studentName = students.get(102);
+        System.out.println("Student with ID 102: " + studentName); 
+
+       
+        for (HashMap.Entry<Integer, String> entry : students.entrySet()) {
+            System.out.println("Student ID: " + entry.getKey() + ", Name: " + entry.getValue());
+        }
+        
+        
+    }
+}
